@@ -1,0 +1,29 @@
+[
+  {
+    "demonName": "Abyss of Darkness",
+    "creator": "Riot",
+    "image": "images/default-demon.jpg",
+    "firstCompletion": {
+      "playerName": "Zoink",
+      "playerImage": "images/default-player.jpg",
+      "date": "2023-05-15"
+    },
+    "completions": [
+      {"playerName": "Zoink", "playerImage": "images/default-player.jpg", "date": "2023-05-15"},
+      {"playerName": "SpaceUK", "playerImage": "images/default-player.jpg", "date": "2023-05-20"}
+    ]
+  },
+  {
+    "demonName": "Slaughterhouse",
+    "creator": "icedcave",
+    "image": "images/default-demon.jpg",
+    "firstCompletion": {
+      "playerName": "SpaceUK",
+      "playerImage": "images/default-player.jpg",
+      "date": "2023-04-10"
+    },
+    "completions": [
+      {"playerName": "SpaceUK", "playerImage": "images/default-player.jpg", "date": "2023-04-10"}
+    ]
+  }
+]

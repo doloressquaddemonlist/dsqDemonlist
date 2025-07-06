@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Players | Geometry Dash Demonlist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DSQ Demonlist</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="demons.html">Топ демонов</a></li>
+                    <li><a href="players.html" class="active">Топ игроков</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">Топ игроков</h1>
+        
+        <div class="player-list" id="playerList">
+            <!-- Player items will be inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <!-- Player Modal -->
+    <div class="modal" id="playerModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <div class="player-info">
+                    <h2 id="playerName">Никнейм:</h2>
+                    <div class="player-stats">
+                        <span id="playerPoints">Всего поинтов: 5000</span>
+                        <span id="playerPosition">#1</span>
+                    </div>
+                    <p id="playerDemonsCount">Пройдено демонов из топа: 50</p>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h3>Пройденные демоны из топа</h3>
+                <div class="completed-demons" id="completedDemons">
+                    <!-- Demon cards will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025, DSQ Demonlist 1.0.</p>
+            <div class="social-links">
+                <a href="https://discord.gg/a9ERSbvJ3E"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/players.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

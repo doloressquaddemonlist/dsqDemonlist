@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Demons | Хуяки</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>DSQ Demonlist</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="demons.html" class="active">Топ демонов</a></li>
+                    <li><a href="players.html">Топ игроков</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">Топ демонов</h1>
+        
+        <div class="demon-list" id="demonList">
+            <!-- Demon items will be inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <!-- Demon Modal -->
+    <div class="modal" id="demonModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <img id="demonImage" src="images/default-demon.jpg" alt="Demon Image">
+                <div class="demon-info">
+                    <h2 id="demonName">Имя уровня:</h2>
+                    <p id="demonCreator">От: Creator</p>
+                    <div class="demon-stats">
+                        <span id="demonPoints">500 pts</span>
+                        <span id="demonPosition">#1</span>
+                    </div>
+                </div>
+            </div>
+            <h1>Первое прохождение</h1>
+            <div class="modal-body">
+                <div class="completion-item">
+                    
+                    <div class="completion-info">
+                        <div>
+                            <h3 id="firstPlayerName">Никнейм</h3>
+                            <p id="completionDate">Дата прохождения: January 1, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="other-completions">
+                    <h3>Остальные прохождения </h3>
+                    <div class="completions-list" id="completionsList">
+                        <!-- Other completions will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025, DSQ Demonlist 1.0.</p>
+            <div class="social-links">
+                <a href="https://discord.gg/a9ERSbvJ3E"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+    <script src="js/demons.js"></script>
+</body>
+</html>

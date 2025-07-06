@@ -1,0 +1,12 @@
+[
+  {
+    "playerName": "Zoink",
+    "playerImage": "images/default-player.jpg",
+    "completedDemons": ["Abyss of Darkness"]
+  },
+  {
+    "playerName": "SpaceUK",
+    "playerImage": "images/default-player.jpg",
+    "completedDemons": ["Abyss of Darkness", "Slaughterhouse"]
+  }
+]
